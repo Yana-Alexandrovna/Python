@@ -14,6 +14,9 @@
 # max_number = n
 #print(max_number)
 
+
+## Ошибок  2
+
 #Петя
 #n = int(input())
 #ax_number = -1
@@ -22,3 +25,18 @@
 # if max_number < n:
 # n = max_number
 #print(n) 
+
+## Ошибок  3
+
+#Решение задачи
+
+
+
+print('Введите последовательность')
+number_ = int(input())
+max_ = number_
+while number_ != 0:
+    if number_ > max_:
+        max_ = number_ 
+    number_ = int(input())     
+print (f'{max_= }' )
