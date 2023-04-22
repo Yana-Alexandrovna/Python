@@ -14,12 +14,8 @@ class Human:
                 return "они одногодки"
             else:
                 return "у них разный возраст"
-        if type(other) == int:
 
-            return "человек - не цифра=)"
         
-    def __add__(self, other):
-        return other.age+self.age
     
     def __str__(self):
         return self.name
